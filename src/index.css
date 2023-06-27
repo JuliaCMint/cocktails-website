@@ -234,8 +234,8 @@ Cocktails List
   text-transform: uppercase;
   letter-spacing: var(--mainSpacing);
   text-align: center;
-  margin-bottom: 3rem;
-  margin-top: 3rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 .cocktails-center {
   width: var(--smallWidth);
