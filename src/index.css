@@ -337,11 +337,15 @@ Cocktail
 
 .cocktail-section {
   text-align: center;
-}
-.drink {
   width: var(--smallWidth);
   max-width: var(--fullWidth);
   margin: 0 auto;
+}
+.before-content {
+  padding: 2rem 0;
+  text-align: left;
+}
+.drink {
   text-align: left;
 }
 .drink img {
