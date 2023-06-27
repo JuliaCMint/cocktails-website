@@ -21,7 +21,8 @@ Variables
   --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
   --mainBorderRadius: 0rem;
   --smallWidth: 85vw;
-  --maxWidth: 40rem;
+  --maxWidth: 70rem;
+  --maxWidthSmall: 40rem;
   --fullWidth: 1170px;
   --additionalFont: "Permanent Marker", cursive;
 }
@@ -37,8 +38,7 @@ Global Styles
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Quicksand", sans-serif,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Quicksand", sans-serif;
   color: var(--mainBlack);
   background: var(--mainBackground);
 
@@ -187,10 +187,25 @@ About
   max-width: var(--maxWidth);
   margin: 0 auto;
 }
-.about-section p {
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: end;
+}
+.about img {
+  width: 100%;
+}
+.about-description p {
   line-height: 2rem;
   font-weight: 300;
   letter-spacing: 2px;
+}
+@media screen and (max-width: 992px) {
+  .about {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: end;
+  }
 }
 /* 
 ====== 
@@ -212,7 +227,7 @@ Cocktails List
 */
 
 .section {
-  padding: 5rem 0;
+  padding: 1rem 0;
 }
 .section-title {
   font-size: 1.5rem;
@@ -290,7 +305,7 @@ Form
 .search-form {
   width: var(--smallWidth);
   margin: 0 auto;
-  max-width: var(--maxWidth);
+  max-width: var(--maxWidthSmall);
   background: var(--mainWhite);
   padding: 2rem 2.5rem;
   text-transform: uppercase;
@@ -301,6 +316,7 @@ Form
 .form-control label {
   display: block;
   margin-bottom: 1.25rem;
+  text-align: center;
   font-weight: bold;
   letter-spacing: 0.25rem;
 }
