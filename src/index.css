@@ -88,37 +88,34 @@ Buttons
 .btn-primary {
   text-transform: uppercase;
   letter-spacing: var(--mainSpacing);
-  color: var(--primaryColor);
   border: 2px solid var(--primaryColor);
-  padding: 0.45rem 0.8rem;
   display: inline-block;
   transition: var(--mainTransition);
   cursor: pointer;
-  font-size: 0.8rem;
-  background: transparent;
-  border-radius: var(--mainBorderRadius);
   display: inline-block;
 }
 .btn:hover {
-  background: var(--primaryColor);
-  color: var(--mainWhite);
+  color: var(--primaryColor);
 }
 .btn-white {
   background: transparent;
   color: var(--mainWhite);
   border-color: var(--mainWhite);
+  padding: 0.45rem 0.8rem;
+  font-size: 0.8rem;
 }
 .btn-white:hover {
   background: var(--mainWhite);
   color: var(--primaryColor);
 }
 .btn-primary {
-  background: var(--primaryColor);
-  color: var(--mainWhite);
+  color: var(--mainBlack);
   border-color: transparent;
+  font-family: var(--additionalFont);
+  font-size: 1.5rem;
+  padding: 0;
 }
 .btn-primary:hover {
-  background: var(--primaryLightColor);
   color: var(--primaryColor);
 }
 .btn-block {
