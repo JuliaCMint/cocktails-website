@@ -24,4 +24,4 @@ https://the-cocktails.netlify.app/
 
 #### PREVIEW
 
-![Cocktails-Setup-home-page](https://github.com/JuliaCMint/cocktails-website/assets/105377899/8cd2dbdf-f76d-4213-bbe8-e2fc9e2524d3)
+![Cocktails-Setup-home-page](https://github.com/JuliaCMint/cocktails-website/assets/105377899/a182c733-2826-4c96-a907-308066bbe21f)
